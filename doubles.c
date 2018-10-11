@@ -17,7 +17,7 @@ printf("Enter a temperature in degress fahrenheit: ");
 
 scanf("%lf", &f);
 
-printf("%.1lf degrees fahrenheit is the same as %.1lf degrees celsius", f, (5*(f-32))/9);
+printf("%.1lf degrees fahrenheit is equivalent to %.1lf degrees celsius", f, (5*(f-32))/9);
 
 }
 
@@ -27,11 +27,12 @@ printf("Enter a temperature in degress celsius: ");
 
 scanf("%lf", &c);
 
-printf("%.1lf degrees celsius is the same as %.1lf degrees fahrenheit", c, (((c*9)/5)+32));
+printf("%.1lf degrees celsius is equivalent to %.1lf degrees fahrenheit", c, (((c*9)/5)+32));
 
 }
 
 return 0;
 
 }
+
 
