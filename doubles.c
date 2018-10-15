@@ -13,7 +13,7 @@ scanf("%c", &choice);
 
 if (choice == 'f') {
 
-printf("Enter a temperature in degress fahrenheit: ");
+printf("Enter a temperature in degrees fahrenheit: ");
 
 scanf("%lf", &f);
 
@@ -23,7 +23,7 @@ printf("%.1lf degrees fahrenheit is equivalent to %.1lf degrees celsius", f, (5*
 
 if (choice == 'c') {
 
-printf("Enter a temperature in degress celsius: ");
+printf("Enter a temperature in degrees celsius: ");
 
 scanf("%lf", &c);
 
