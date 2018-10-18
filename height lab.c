@@ -9,7 +9,7 @@ int main () {
 	char g; 
 	int f;
 	int i;
-
+	int h;
 
 	printf("Enter your sex (m/f): ");
 	scanf("%c", &g);
