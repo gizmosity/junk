@@ -1,12 +1,20 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 int main () {
 
 double input;
 int alt;
 int f;
-int r; 
+int r;
+int r2;
+int r3;
+int quarters = 0;
+int dimes = 0;
+int nickels = 0;
+
+ 
 
 
 printf("Please enter an amount of money: ");
@@ -16,20 +24,17 @@ input = input * 100;
 
 alt = round(input);
 
-if (alt <= 5) {
+if (alt <= 100 || alt >= 25) {
 
-printf("%.2lf can be expressed as %d pennies", input/100, alt);
+r = alt % 25
 
-}
+for (; alt > 0; alt - 25, alt - 10, alt - 5, alt - 1) {
 
-if (alt <= 100) {
 
-for (alt = f; alt > 10; r = alt % 5, alt = alt / 10) {
-
-alt = alt / 10;
 
 }
 
-printf("%d", alt);
+
+}
 
 }
